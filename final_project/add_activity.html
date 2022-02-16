@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@546&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- title -->
+    <title>My Reality</title>
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <!-- create bamburgar-button =======================================================================-->
+        <div class="nav-icon"><img src="image/My-Reality2.png"width="50">
+            <a style="color: #946dc0;">The</a><a style="color: #cf4b9c;">Reality</a>
+        </div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+        
+
+        <div class="nav-menu">
+            <ul>
+                <li><a herf="#">Home</a></li>
+                <li><a herf="#">My Activity</a></li>
+                <li><a herf="#">Community</a></li>
+                <li><a herf="#">Profile</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <h1 class="text-center">Add Activity</h1>
+    </div>
+
+    <section id="showtime">
+        <div class="showtime">
+            00:00:00
+        </div>
+    </section>
+
+    <div class="duration">
+        Duration
+    </div>
+
+    <section id="select_type_activity">
+        <div class="ac-select">
+            <div class="sl-left">
+                <img src="image/arrow-left-color.png"width="30px" alt="arrow-left">
+            </div>
+            
+            <!-- icon -->
+            <div class="sl-mid">
+                <img src="image/running-color.png"height="300px" alt="running">
+                <div class="name-ac">
+                    <p>RUNNING</p>
+                </div>
+            </div>
+            
+            
+            <div class="sl-right">
+                <img src="image/arrow-right-color.png"width="30px" alt="arrow-right">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="add_activity">
+        <div class="container">
+            <div class="input-fields1">
+                    <div>
+                        <label>Name</label>
+                        <br>
+                        <input type="text" class="input" id="name">
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <br>    
+                        <input type="text" class="input" id="description">
+                    </div>
+                    <div>
+                        <label>Date</label>
+                        <br>
+                        <input type="date" class="date" id="date">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                    <div class="start_stop_time">
+                        <label>Start Time</label>
+                        <br>
+                        <input type="time" class="date" id="times">
+                    </div>
+                    <div class="start_stop_time">
+                        <label>Stop Time</label>
+                        <br>
+                        <input type="time" class="date" id="times">
+                    </div>
+                    </div>
+                    <div>
+                        <button type="button" class="start">Submit</button>
+                    </div>
+
+
+            </div>
+
+        </div>
+    </section>
+  </body>
+</html>
